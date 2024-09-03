@@ -1,0 +1,54 @@
+*
+{
+    margin :0;
+    padding:0 ;
+    background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch13-086-kpxyz0id.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=00c2d7b35d84cdb4c43982f06dc50e84");
+    background-repeat: no-repeat;
+    block-size:cover;
+    font-weight:bold;
+    color:white;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+
+}
+.cal
+{
+    display: grid;
+    grid-template-columns: repeat(4,72px);
+    border-radius: 60px;
+    border:2px solid rgb(8, 231, 82);
+    padding:25px;
+}
+input{
+    text-align:right;
+    grid-column: span 4;
+    box-shadow: inset -4px 10px 5px 0px rgba(250,219,219,0.75);
+    border-color: aqua;
+    border-radius: 20px;
+    padding-right :30px;
+    text-align: end;
+    height: 70px;
+    font-size: 30px;
+
+}
+button{
+
+    height:48px;
+    width:48px;
+    border-radius: 60px;
+    border:0;
+    box-shadow: inset -4px 10px 5px 0px rgba(250,219,219,0.75);    
+    margin:10px;
+    font-size:16px;
+}
+.equal
+{
+    width:116px;
+    border-radius:20px;
+    margin-right: 0.5em;
+}
